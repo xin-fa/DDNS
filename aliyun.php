@@ -2,7 +2,7 @@
 
 date_default_timezone_set('UTC');
 
-include_once 'AlicloudUpdateRecord.php';
+include_once 'alidata.php';
 
 use Roura\Alicloud\V20150109\AlicloudUpdateRecord;
 $token = $_GET["token"];
